@@ -5,7 +5,9 @@
 
 == commands ==
 git init #initializes git
+
 git status #See the git status
+
 touch file.html # to create a file
 
 git add filename #add the file to git to be tracked
@@ -13,6 +15,25 @@ git add filename #add the file to git to be tracked
 git commit --message "your message for the commit"
 
 git log # to see the log of commits
+
 git lg #short notation of logs
 
+git diff # see what changed on the file
 
+git add . # for tracking everything
+
+== Branching == 
+Creates a copy of the file
+Rule: One feature = one branch
+
+
+git branch NameofBranch
+
+git checkout NameofBranch #OR
+git checkout -b NameofBranch #creates a new branch and switches to it
+
+git branch -d NameofBranch #deletes branch
+
+== GitHub ==
+
+git remote -v #where are you connected to?
