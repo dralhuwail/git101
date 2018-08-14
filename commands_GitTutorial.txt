@@ -1,0 +1,18 @@
+- We are knowledge workers
+- We need version control, what we end up with a manual version control
+- Can we automate this? (we need to know when the file was modified, what has changed, why it was modified, and who did the change)
+
+
+== commands ==
+git init #initializes git
+git status #See the git status
+touch file.html # to create a file
+
+git add filename #add the file to git to be tracked
+
+git commit --message "your message for the commit"
+
+git log # to see the log of commits
+git lg #short notation of logs
+
+
